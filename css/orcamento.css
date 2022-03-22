@@ -29,6 +29,7 @@ li {
 		position: relative;
 		text-align: center;
 		text-decoration: none;
+		
 	}
 
 		input[type="button"].down,
@@ -212,8 +213,7 @@ li {
 		display: block;
 		width: 100%;
 		padding: 0.65em 0.75em;
-		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 2px #ffffff;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;

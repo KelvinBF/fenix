@@ -19,14 +19,14 @@ if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['m
 
 	$mail = new PHPMailer();
 	$mail->isSMTP();
-	$mail->Host = 'smtp.hotmail.com';
+	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'leandro_halberstadt@hotmail.com';
-	$mail->Password = 'gremio1903';
+	$mail->Username = 'leandrofenixvidros@gmail.com';
+	$mail->Password = 'fenixvidros';
 	$mail->Port = 587;
  
-	$mail->setFrom('leandro@fenixvidros.com');
-	$mail->addAddress('leandro@fenixvidros.com');
+	$mail->setFrom('leandrofenixvidros@gmail.com');
+	$mail->addAddress('leandrofenixvidros@gmail.com');
 
 	$mail->isHTML(true);
 	$mail->Subject = $assunto;

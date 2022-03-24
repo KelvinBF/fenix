@@ -41,7 +41,7 @@ h2 {
 
 h3 {
     color:  #ffffff;
-    font-size: 33px;
+    font-size: 40px;
     font-weight: 500;
     margin-top: 100px;
 }
@@ -111,7 +111,7 @@ p.lead {
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .section-title small {
     color: #4f4f4f;
@@ -159,16 +159,26 @@ background-color: #fff;
 }
 .nav-menu.is-scrolling {
     padding: 0;
-    box-shadow: 0.1em 0.1em 0.2em #f5af46c4;
+    box-shadow: 0.1em 0.1em 0.2em #ffffffb2;
 }
 
 .navbar-nav .nav-link {
     position: relative;
 }
+.section-reiki {
+    padding: 0;
+       
+}
+.pt-4, .py-4 {
+    padding-top: 4rem!important;
+}
 .reiki img{
     position:relative;
     width:100%;
-    padding:20%;
+    padding-top: 5%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    padding-left: 20%;
 }
 .embed{
     position:relative;
@@ -224,6 +234,7 @@ background-color: #fff;
     margin-top: 5rem !important;
     padding-left: 10%;
     padding-right: 30%;
+    padding-top: 70px;
 
 }
 .bnt-azul{
@@ -261,7 +272,7 @@ header {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 800px;
     overflow: hidden;
 }
 
@@ -313,7 +324,7 @@ header {
 .card.features {
     border: 0;
     border-radius: 3px;
-    box-shadow: 0px 5px 7px 0px rgba(221, 129, 23, 0.747);
+    box-shadow: 0px 5px 7px 0px rgba(255, 255, 255, 0.747);
     transition: all 0.3s ease;
 }
 
@@ -331,9 +342,9 @@ header {
     position: absolute;
     width: 3px;
     color: #285da1;
-    background: -moz-linear-gradient(top,#285da1 0%, rgb(243, 147, 4)  100%);
-    background: -webkit-linear-gradient(top,#285da1 0%, rgb(243, 147, 4) 100%);
-    background: linear-gradient(to bottom,#285da1 0%, rgb(243, 147, 4) 100%);
+    background: -moz-linear-gradient(top,#285da1 0%, rgb(247, 245, 243)  100%);
+    background: -webkit-linear-gradient(top,#285da1 0%, rgb(245, 244, 242) 100%);
+    background: linear-gradient(to bottom,#285da1 0%, rgb(247, 245, 243) 100%);
     top: 0;
     bottom: 0;
     left: 0;

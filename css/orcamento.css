@@ -29,6 +29,7 @@ li {
 		position: relative;
 		text-align: center;
 		text-decoration: none;
+		border-radius: 5px 20px;
 		
 	}
 
@@ -46,6 +47,7 @@ li {
 			background-repeat: no-repeat;
 			text-indent: -10em;
 			overflow: hidden;
+			
 		}
 
 			input[type="button"].down.anchored,
@@ -58,6 +60,7 @@ li {
 				border-radius: 3em 3em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
+			
 			}
 
 		input[type="button"].anchored,
@@ -217,6 +220,7 @@ li {
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
+		border-radius: 5px 10px;
 	}
 
 		.main > .content {

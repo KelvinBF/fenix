@@ -110,7 +110,6 @@ p.lead {
     margin-bottom: 3rem;
     margin-top: 100px;
 }
-
 .section-title small {
     color: #4f4f4f;
 }
@@ -161,10 +160,26 @@ background-color: #fff;
 .navbar-nav .nav-link {
     position: relative;
 }
-
+.reiki img{
+    position:relative;
+    width:100%;
+    padding:20%;
+}
+.embed{
+    position:relative;
+    width:100%;
+    padding-bottom: 56.25%;
+}
+.embed iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border:none;
+}
  .img-fluid {
     max-width: 100%;
-    height: 100px; 
+    height: 80px; 
+    width: 100%;
  }
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='RGB(109, 110, 109)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
